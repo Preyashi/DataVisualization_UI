@@ -1,0 +1,127 @@
+.heatmapdiv{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: inherit;
+    height: inherit;
+}
+
+.heatmapmain{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    height: inherit;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    height: inherit;
+}
+.name{
+    background-color:white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    height: 10%;
+    width: 10%;
+    font-size: small;
+    font-family: sans-serif;
+}
+.empty{
+    background-color:white;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    height: 10%;
+    width: 10%;
+    font-size: small;
+    font-family: sans-serif;
+}
+.col0{
+    background-color:white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 7%;
+    height: 3%;
+    font-size: small;
+    font-family: sans-serif;
+}
+.col1{
+    background-color:white;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 7%;
+    height: 3%;
+    font-size: small;
+    font-family: sans-serif;
+}
+.col2{
+    
+    background-color: #cdddff;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 7%;
+    height: 3%;
+    font-size: small;
+    font-family: sans-serif;
+}
+.col3{
+   
+    background-color:  #89bbff;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 7%;
+    height: 3%;
+    font-size: small;
+    font-family: sans-serif;
+}
+.col4{
+    background-color:  	#6697ff;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 7%;
+    height: 3%;
+    font-size: small;
+    font-family: sans-serif;
+}
+.col5{
+    background-color: blue;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 7%;
+    height: 3%;
+    font-size: small;
+    color: white;
+    font-family: sans-serif;
+}

@@ -1,0 +1,493 @@
+
+.DisplayMain{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.HeaderDiv{
+    display: flex; 
+    flex-direction: row;
+    background-color: magenta;
+    flex:1;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0;
+    right: 0;
+    left:0;
+    width: 100%;
+    height: 2%;
+}
+
+.ContentDiv{
+    display:flex;
+    flex-direction: column;
+    flex:40;
+    height: 85%;
+    position: relative;
+    width: inherit;
+
+    
+}
+.TopRow{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: powderblue;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.IdDiv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-right-color: darkcyan;
+    border-right-style: solid;
+    border-width: 1px;
+    font-size: small;
+    padding-right: 5px;
+  
+}
+
+.BasicDetails{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 5px;
+   
+}
+
+.ContentRow{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: inherit;
+   
+}
+
+.SideMenu{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+    position: relative;
+    left: 0;
+    padding-right:  0px;
+    width: 20%;
+}
+
+.ContentDetails{
+    display: flex;
+    flex-direction: column;
+    flex:8;
+    position: relative;
+    width: 80%
+
+}
+
+.FooterDiv{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    background-color: powderblue;
+    align-self:  flex-end;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 10%;
+    align-self: center;
+    width: 100%;
+}
+
+
+.headerImage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:1;
+    background-color: rgb(160, 203, 204);
+}
+
+
+.SideMenu{
+    display: flex;
+    align-content: center;
+    padding: 0px;
+    flex:1;
+    left:0;
+    position: relative;
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right-color: paleturquoise;
+    width: inherit;
+
+}
+
+.sideMenuList{
+    list-style-type:none;
+    position: relative;
+    vertical-align: middle;
+    font-size: 0.85em;
+    font-weight: normal;
+    flex:1;
+    text-align: left;
+    margin-left: 0px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width:inherit;
+    overflow-x: inherit;
+    align-self: center;
+    padding-left: 0px;
+  
+
+}
+
+
+.ListTabs{
+    border-bottom-color: darkcyan;
+    border-bottom-style: groove;
+    border-bottom-width: 1px;
+    margin-bottom: 2px;
+    width: inherit;
+
+}
+
+.content{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding-left: 5px;
+    width: inherit;
+}
+
+.hoverli{
+    background-color: lime;
+}
+
+
+
+.sliderContainer{
+    display: flex;
+    flex-direction: column;
+}
+.rendercontent{
+    display: flex;
+    flex-direction: row;
+}
+.sliderScale{
+    display: flex;
+    flex-direction: row;
+}
+.sliderSelectedScale{
+    display: flex;
+    flex-direction: row;
+}
+.vertical{
+    display: flex;
+    flex-direction: row;
+}
+.horizontal{
+    display: flex;
+    flex-direction: column;   
+}
+.horizontal1{
+    display: flex;
+    flex-direction: column;  
+    text-orientation: upright;
+}
+.hrdiv{
+    flex:1;
+    width: 16%;
+    background-color: #ff0000;
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.mrdiv{
+    flex:1;
+    width: 16%;
+    background-color:#ff0033;
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.lrdiv{
+    flex:1;
+    width: 16%;
+    background-color: #ff0066;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+  
+}
+.bdiv{
+    flex:1;
+    width: 16%;
+    background-color: #cc0099;
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.mbdiv{
+    flex:1;
+    width: 16%;
+    background-color: #cc00cc;
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.hbdiv{
+    flex:1;
+    width: 16%;
+    background-color: #cc00ff;
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.rangediv{
+    display: flex;
+    flex-direction: row; 
+    width: fit-content;
+    background-color: lightcoral;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.rangemaindiv{
+    display: flex;
+    flex-direction: row;
+    flex:9;
+    width: inherit;
+    
+}
+.labeldiv{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+.contentrisk{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding-left: 5px;
+    width: inherit;
+    padding-top: 10px;
+}
+
+.histogramcontent{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding-left: 5px;
+    width: inherit;
+}
+
+.creditlimit{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding-left: 5px;
+    width: inherit;
+}
+
+.graph{
+    position: relative;
+    display: flex;
+    max-width: 800px;
+    height: inherit;
+    flex-direction: row;
+    width: inherit;
+    margin-top: 20px;
+
+}
+.graphfirst{
+    position: relative;
+    display: flex;
+    max-width: 800px;
+    height: 100%;
+    flex-direction: column;
+    width: inherit;
+}
+
+.line{
+    position: relative;
+    display: flex;
+    top:0;
+    bottom: 0;
+    width: 2px;
+    background: rgba(0, 0, 0);
+    left:10%;
+    height: 100%;
+}
+.lineswdnumdiv{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.linenum{
+    position: relative;
+    display: flex;
+    top:0;
+    bottom: 0;
+    width: 2px;
+    left:10%;
+    height: 5%;
+}
+
+
+.bartextcontentdiv{
+    position: relative;
+    width: 12%;
+    height: 100%;
+
+}
+
+.bartextcontent{
+    position: relative;
+    height: 100%;
+
+}
+
+.barLinesContainer{
+    position: relative;
+    width: 88%;
+    height: 100%;
+
+}
+
+.bardivinsie{
+    position: relative;
+    height: 10%;
+    width: inherit;
+        
+}
+
+.bar{
+    position: absolute;
+    background-color: #008b8b;
+    height:100%;
+    z-index: 25;
+    border-bottom: 1px solid #222;
+    border-right: 1px solid #222;
+    border-top: 1px solid #222;
+    
+}
+
+.bar2{
+    position: relative;
+    height: 10%;
+    background-color: cornflowerblue;
+    z-index: 25;
+    border-bottom: 1px solid #222;
+    border-right: 1px solid #222;
+}
+
+.bar3{
+    position: relative;
+    height: 10%;
+    background-color: indianred;
+    z-index: 25;
+    border-bottom: 1px solid #222;
+    border-right: 1px solid #222;
+}
+.bar1{
+    position: relative;
+    height: 10%;
+    background-color: coral;
+    z-index: 25;
+    border-bottom: 1px solid #222;
+    border-right: 1px solid #222;
+}
+.text {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+
+  .markers {
+    display: flex;
+    width: 88%;
+    position: relative;
+    margin-top: 10px;
+    height: 10%;
+
+    
+  }
+  
+  .markers > div {
+    width: 12%;
+    display: flex;
+    position: absolute;
+    transform: translateX(-7px);
+    font-weight: 300;
+    font-size: 14.5px;
+    left:10%;
+  }
+
+  .accountdetailsdiv{
+      margin-top: 10px;
+      margin-left: 10px;
+  }
+
+  .account{
+      font-size: 14.5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: fit-content;
+  }
+
+  .accountLabelID{
+      background-color: lightsalmon;
+  }
+
+  .accountLabelLink{
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .accountLink{
+      width: fit-content;
+      background-color:powderblue;
+      height: min-content;
+  }
+
+
